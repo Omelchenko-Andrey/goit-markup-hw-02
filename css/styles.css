@@ -5,11 +5,14 @@
     --white-color:#FFFFFF;
     --grey-background-color: #F5F4FA;
     --dark-background-color: #2F303A;
-
-   
+    --first-font-family: 'Roboto', sans-serif;
+    --second-font-family: 'Raleway', sans-serif;
 
 }
 
+body{
+    font-family: var(--first-font-family);
+}
 
 /* --------------------Header-------------------- */
 
@@ -38,7 +41,9 @@
 /* --------------------Footer-------------------- */
 
 
+/* ------------------------------------------------- */
 /* --------------------Portfolio-------------------- */
+/* ------------------------------------------------- */
 .portfolio-button{
     background-color:var(--grey-background-color) ;
     color: var(--h-color);
