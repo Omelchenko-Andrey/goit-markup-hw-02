@@ -1,0 +1,50 @@
+:root{
+    --p-color:#757575;
+    --h-color: #212121;
+    --accent-color: #2196F3;
+    --white-color:#FFFFFF;
+    --grey-background-color: #F5F4FA;
+    --dark-background-color: #2F303A;
+
+   
+
+}
+
+
+/* --------------------Header-------------------- */
+
+.header-nav-link{
+    color: var(--h-color);
+}
+
+.header-contacts-link{
+    color: var(--p-color);
+}
+
+ .header-nav-link:hover,
+ .header-contacts-link:hover
+{
+    color: var(--accent-color)
+}
+
+
+/* --------------------Section-Hero-------------------- */
+.hero-button{
+    background-color: var(--accent-color);
+}
+/* --------------------Section-Features-------------------- */
+/* --------------------Section-Work-------------------- */
+/* --------------------Section-Our-team-------------------- */
+/* --------------------Footer-------------------- */
+
+
+/* --------------------Portfolio-------------------- */
+.portfolio-button{
+    background-color:var(--grey-background-color) ;
+    color: var(--h-color);
+}
+
+.portfolio-button:hover {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
