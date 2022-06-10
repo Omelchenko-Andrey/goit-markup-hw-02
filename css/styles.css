@@ -99,7 +99,6 @@ body{
     letter-spacing: 0.06em;
     cursor: pointer;
     padding: 10px 32px;
-    
 
 }
 /* --------------------Section-Features-------------------- */
@@ -146,7 +145,7 @@ body{
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-align: center;
-    }
+}
 
  .team-text{
      color: var(--text-color);
@@ -155,7 +154,7 @@ body{
     line-height: 1.2;
     letter-spacing: 0.03em;
     text-align: center;
-     }   
+}   
  
 /* --------------------Footer-------------------- */
 .page-footer{
@@ -211,7 +210,8 @@ body{
 .portfolio-link{
     color: var(--text-color);
     text-decoration: none;
-   }
+}
+
 .portfolio-title{
     color: var(--title-color);
     font-weight: 700;
